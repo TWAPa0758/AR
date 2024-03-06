@@ -1,0 +1,14 @@
+<model-viewer src="delaxiong_c3d.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate autoplay>
+    <button class="Hotspot" slot="hotspot-4" data-surface="0 0 5187 5186 5191 0.681 0.098 0.221" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">迪拉熊</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
